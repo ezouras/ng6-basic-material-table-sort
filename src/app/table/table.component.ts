@@ -36,8 +36,6 @@ export class TableComponent implements OnInit {
 
   }
 
-
-  /** Builds and returns a new User. */
   function createNewUser(id: number): UserData {
     const name =
         NAMES[Math.round(Math.random() * (NAMES.length - 1))] + ' ' +
