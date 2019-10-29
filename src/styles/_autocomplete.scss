@@ -1,0 +1,114 @@
+/** for searchbar autocomplete **/
+.search-bar-main{
+      width: 100%;
+      border: transparent !important;
+      border-radius: 26px 0px 0px 26px !important;
+      background: #FFFFFF !important;
+  }
+
+  .ui-autocomplete {
+    cursor: default !important;
+    width:100%!important;
+    box-shadow:none;
+    display:inline-block;
+  }
+
+  .ui-autocomplete-input{
+    padding:.75rem !important;
+    padding-right:1.5em !important;
+  }
+
+
+/**********end searchbar style ****************/
+
+.ui-state-highlight {
+  background-color: #4386be !important;
+  border-radius: 0px !important;
+  span {
+    color: #fff !important;
+  }
+}
+
+
+.ui-autocomplete-list-item {
+  border: none;
+  padding: 0 !important;
+}
+.ui-autocomplete-panel .ui-autocomplete-list {
+  padding: 0 !important;
+  border: 0 none;
+}
+
+
+.ui-autocomplete-list-item {
+  border-bottom: 1px solid #d5d5d5 !important;
+  padding-top: 5px !important;
+  padding-left: 20px !important;
+
+  span {
+    margin-right: 5px;
+  }
+  &:hover {
+    span {
+      color: #47a7e5 !important;
+    }
+  }
+}
+
+
+.ui-helper-clearfix {
+  border: none !important;
+}
+
+
+
+.ui-autocomplete-panel {
+  // margin-top: 30px;
+  // top: 73px !important;
+  background: #FFF!important;
+  // margin-right: 10px;
+  box-shadow: 0 15px 12px rgba(0, 0, 0, 0.12), 0 0 38px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 2px !important;
+  margin-left: 7px !important;
+  // margin-right: 20px !important;
+  width: calc(51vw - 255px);
+  // margin-left: 1.5vw;
+  min-width: 80% !important;
+}
+
+.ui-autocomplete-loader {
+  display: none !important;
+}
+
+.ui-widget-content {
+  border: none !important;
+}
+
+.ui-autocomplete-list-item {
+  padding: 15px !important;
+  padding-bottom: 0px !important;
+  padding-left: 30px !important;
+  // padding-bottom: 20px;
+  &:hover {
+    background: rgba(#000,0.1)!important;
+  }
+}
+
+
+
+
+//SmallMolecule Styles to overide table Class
+.ui-state-highlight {
+  background-color: #f0f0f0 !important;
+  color: #000 !important;
+  span {
+    color: #00a8eb !important;
+  }
+}
+
+.ui-sortable-column-icon {
+  color: #00a8eb !important;
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+}
