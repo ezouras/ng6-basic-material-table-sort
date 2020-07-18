@@ -23,7 +23,7 @@
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
     "core-js": "^2.5.4",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "ng-lottie": "^0.3.2",
     "ng2-pdf-viewer": "^5.2.0",
     "ngx-toastr": "^10.0.2",
